@@ -1,0 +1,28 @@
+.Main {
+    padding: 10px;
+    margin: 50px;
+}
+
+.upload {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#name {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#sumbit.upload {
+    padding: 10px;
+}
+
+#submit-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

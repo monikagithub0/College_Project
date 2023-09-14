@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tech Eats</title>
+  <link rel="shortcut icon" type="x-icon" href="icons/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class='nav-bar'>
+        <li class='logo'><a href='index.html'><img src='icons/logo.png' /></a>
+          <span style="color: yellow;">Tech Eats</span>
+        </li>
+        <input type='checkbox' id='check' />
+        <span class="menu">
+          <li><a href="include/Recipe_list.php">Recipe List</a></li>
+          <li><a href="include/add.php">Add Recipe</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </span>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </ul>
+    </nav>
+  </header>
+
+  <Main>
+    <section id="welcome">
+      <div class="text-description">
+        <h1 style="color:#4F5165;">Welcome to Tech Eats</h1>
+        <h2>Your Culsinary Companion</h2>
+        <p>Tech Eats" is your ultimate destination for the perfect fusion of technology and gastronomy. We bring you a
+          tantalizing blend of two exciting worlds - the cutting-edge innovations of the tech industry and the
+          delightful flavors of the culinary world.
+        </p>
+        <p>The heart of Tech Eats is our community of home cooks who share their beloved family recipes, create new
+          recipes, and photograph, rate, and review each other's recipes. Each week, more than 15 million registered
+          members add more than 2,000 recipe ratings, 800 new recipe photos, and almost 200 new recipes to the site. And
+          every minute of every day, 27 people are saving recipes they love or want to try later.</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="include/Recipe_list.php" class="cta-button">Explore Recipes</a>
+        <a href="include/add.php" class="cta-button">Add Your Recipe</a>
+      </div>
+    </section>
+  </Main>
+  <!-- Footer section -->
+  <footer class="footer-section">
+    <div class="footer-content">
+      <h3>Tech Eats</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestias dolorum similique
+        quia enim ipsa officia laboriosam velit magni ullam et, vel adipisci dolore quam! Quae doloribus
+        labore ex quas?</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+      </ul>
+    </div>
+    <div id="footer-copyright">
+      <p>&copy; 2023 Tech Eats. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
